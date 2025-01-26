@@ -90,16 +90,25 @@ Ensure that you have the following installed on your machine:
 
 ```plaintext
 .  
-├── components/  
-│   ├── TableComponent.js    # Reusable table component  
-├── pages/  
-│   ├── index.js             # Login page  
-│   ├── dashboard.js         # Dashboard page  
-├── styles/  
-│   ├── Dashboard.module.css # Styles for the dashboard  
-├── utils/  
-│   ├── api.js               # Axios instance for API calls  
-├── server.js                # Backend server (optional)  
+.
+├── frontend/  
+│   ├── components/  
+│   │   ├── TableComponent.js        # Reusable table component  
+│   ├── pages/  
+│   │   ├── index.js                 # Login page  
+│   │   ├── dashboard.js             # Dashboard page  
+│   │   ├── signup.js                # Signup page  
+│   ├── styles/  
+│   │   ├── Auth.module.css          # Styles for authentication pages  
+│   │   ├── Dashboard.module.css     # Styles for the dashboard  
+│   │   ├── global.css               # Global styles for the app  
+│   │   ├── Table.module.css         # Styles for the table component  
+│   ├── utils/  
+│   │   ├── api.js                   # Axios instance for API calls  
+│   │   ├── auth.js                  # Utility functions for authentication  
+├── backend/  
+│   ├── server.js                    # Backend server  
+
 ```
 
 ---
