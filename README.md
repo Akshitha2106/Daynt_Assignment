@@ -20,7 +20,6 @@ This is a simple dashboard application built with **Next.js**. The application p
 - **Frontend**:  
   - Next.js  
   - React  
-  - React-Loading-Skeleton  
   - React-Toastify  
   - CSS Modules  
 - **Backend**:  
